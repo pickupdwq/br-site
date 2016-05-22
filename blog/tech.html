@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/prettify.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+	<link href="icon.ico" type="image/x-icon" rel="shortcut icon" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/loading.js"></script>
+    <script type="text/javascript" src="js/angular.js"></script>
+    <title>科技|Nikosian的个人博客</title>
+</head>
+
+
+<body ng-app="">
+    <!--loading-->
+    <div ng-include="'loading.html'"></div>
+    <!--loading end-->
+
+    <!--header-->
+    <div ng-include="'header.html'"></div>
+    <!--header end-->
+<!--content begin-->
+
+    <div class="tech-wrap">
+    <div id="main-content">
+        <h5 class="animation-fadeUp">科技</h5>
+        <div class="blog-wrap clearfix">
+        
+            <div class="content-block">
+                <h1><a href="">AngularJS初识总结</a></h1>
+                <div class="main-content">
+                    <div class="main-content-imgblock">
+                        <img src="./img/angular-1/a-1.jpg">
+                    </div>
+                    <div class="main-content-textblock">
+                            <div class="ajax-title">
+                                <p>前一段时间看了AngularJS</p>
+                                <p>现在已经明白了AngularJS到底是干嘛的。1.它可以作为移动APP的开发框架。2.直接连接数据库简单粗暴。3.类似JQ的一个库方便开发者的应用</p>  
+                            </div>
+                            <div class="ajax-content">
+
+                            </div>
+                    </div>
+                    <div class="tech-btn btn-detail">
+                        <a data-clickindex="1">阅读全文</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="content-block">
+                <h1><a href="">关于本页面的建站说明</a></h1>
+                <div class="main-content">
+                    <div class="main-content-imgblock">
+                        <img src="./img/3dtouch/3dtouch.jpg">
+                    </div>
+                    <div class="main-content-textblock">
+                            <div class="ajax-title">
+                                <p>已经很久没有写过这样的文章了，大神勿吐槽，对于这个网站今后的发展，楼楼还是信心的...咳咳...</p>
+                                <p>先说说已经采用的技术吧.首先左上角的导航栏..侬看到了么伐？这个汉堡MENU用了CSS3的transition即可以实现这样的效果,这里可以不用Animation这个属性(小题大做了,Animation适合复杂的场景和复杂的动画效果.),在此楼楼无力那些用IE8的用户,不用提IE的加载速度,IE8 css3不兼容就是一个硬伤.更不用说H5标签.</p>  
+                            </div>
+                            <div class="ajax-content">
+                                    
+                            </div>
+                    </div>
+                    <div class="tech-btn btn-detail">
+                        <a data-clickindex="0">阅读全文</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!--content end-->
+  
+    <!--footer-->
+    <div ng-include="'backtop.html'"></div>
+    <div ng-include="'footer.html'"></div>
+    <!--footer-->
+</body>
+ <script type="text/javascript" data-main="js/control" src="js/require.js"></script>
+</html>
