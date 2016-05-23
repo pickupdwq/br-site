@@ -1,22 +1,22 @@
- document.onreadystatechange = finish;
-    function finish() {
-        if (document.readyState == "complete") {
-            $("#load-pic").fadeOut();
-            $("body").css({ "height": "auto", "overflow": "auto" });
-            $(window).unbind("touchstart");
-            window.onscoll=function(){
-              $("body").removeAttribute("onmousewheel","return false");
-            }
-        }
-        else {
-            $(window).bind("touchstart", banSrcoll, false);
-            window.onscoll=function(){
-              $("body").attr("onmousewheel","return false");
-            }
-        }
-        function banSrcoll() {
-            event.preventDefault();
-        }
+ // document.onreadystatechange = finish;
+ //    function finish() {
+ //        if (document.readyState == "complete") {
+ //            $("#load-pic").fadeOut();
+ //            $("body").css({ "height": "auto", "overflow": "auto" });
+ //            $(window).unbind("touchstart");
+ //            window.onscoll=function(){
+ //              $("body").removeAttribute("onmousewheel","return false");
+ //            }
+ //        }
+ //        else {
+ //            $(window).bind("touchstart", banSrcoll, false);
+ //            window.onscoll=function(){
+ //              $("body").attr("onmousewheel","return false");
+ //            }
+ //        }
+ //        function banSrcoll() {
+ //            event.preventDefault();
+ //        }
 
             /*slide-fade*/
     function fadeAway(){
