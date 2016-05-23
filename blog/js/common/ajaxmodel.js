@@ -9,7 +9,7 @@ var ajax_content={
         type: "GET",
         success: function (data,status) {
             $(".tech-btn").eq($thisIndex).siblings(".main-content-textblock").find(".ajax-content").html(data);
-            $(".loadnow").hide();
+            $(".loadingIn").hide();
         },
         errot:function(){
             alert(error);
@@ -35,7 +35,7 @@ var ajax_content={
         type: "GET",
         success: function (data,status) {
             $(".discovery-main-btn").eq($thisIndex).siblings(".main-content-textblock").find(".discovery-ajax-content").html(data)
-             $(".loadnow").hide();
+             $(".loadingIn").hide();
         },
         errot:function(){
             alert(error);
