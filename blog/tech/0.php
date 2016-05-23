@@ -75,6 +75,12 @@ alert(error);
         <p class="fl">V0.2.1</p>
         <p class="fr">2016/4/13</p>
         <h1 class="version-info">优化JS算法</h1>
+        <p class="fl">V1.0.0</p>
+        <p class="fr">2016/5/22</p>
+        <h1 class="version-info">页面移植至GitHub托管</h1>
+        <p class="fl">V1.0.0</p>
+        <p class="fr">2016/5/23</p>
+        <h1 class="version-info">修复托管至GitHub上的BUG增加路由原理以及其他小结文章</h1>
     </div>
 
 </body>
