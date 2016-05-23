@@ -22,7 +22,7 @@ var ajax_content={
         $(this).click(function(){
         var thisClickIndex=$(this).data("clickindex");
            transF(thisClickIndex,i);
-           $(this).html("<p class='loadnow'><img src='./img/loading.gif' alt='' /></p>");
+           $(this).html("<div class='loadingIn'><img src='./img/logo/logo.png' class='loading' /><p style='margin-top:2%;font-size: 18px;'>加载中</p></div>");
     });
     });
 },
@@ -49,7 +49,7 @@ var ajax_content={
         $(this).click(function(){
         var thisClickIndex=$(this).data("clickindex");
            transF(thisClickIndex,i);
-           $(this).html("<p class='loadnow'><img src='./img/loading.gif' alt='' /></p>");
+           $(this).html("<div class='loadingIn'><img src='./img/logo/logo.png' class='loading' /><p style='margin-top:2%;font-size: 18px;'>加载中</p></div>");
     });
     });
     }
