@@ -15,7 +15,7 @@ a{color: #fff;}
 /*loading*/
 #load-pic{position: absolute;width:100%;height:100%;perspective:200px;z-index:99;background:#fff;}
 .loadingIn{text-align:center;perspective: 150px;margin-top: 15%;}
-.loadingIn img{width:5%;}
+.loadingIn img{width:15%;}
 .loading{animation:loading 3s infinite;}
 
 /*pcnav*/
@@ -84,7 +84,9 @@ a{color: #fff;}
 
 	body{background: #66ccff;}
 	html{font-size: 16px;}
-	
+	/*loading animation picture*/
+	.loadingIn img{width:5%;}
+
 	/*top-center*/
 	.center{width: 99%;margin: 0 auto;text-align: right;}
 
