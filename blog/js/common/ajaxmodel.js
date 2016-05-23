@@ -6,7 +6,7 @@ var ajax_content={
         setTimeout(function(){
              $.ajax({
         url: "tech/"+$clickIndex+".php",
-        type: "POST",
+        type: "GET",
         success: function (data,status) {
             $(".tech-btn").eq($thisIndex).siblings(".main-content-textblock").find(".ajax-content").html(data);
             $(".loadnow").hide();
@@ -32,7 +32,7 @@ var ajax_content={
             setTimeout(function(){
                 $.ajax({
         url: "discovery/"+$clickIndex+".php",
-        type: "POST",
+        type: "GET",
         success: function (data,status) {
             $(".discovery-main-btn").eq($thisIndex).siblings(".main-content-textblock").find(".discovery-ajax-content").html(data)
              $(".loadnow").hide();
