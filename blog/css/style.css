@@ -14,7 +14,7 @@ a{color: #fff;}
 
 /*loading*/
 #load-pic{position: absolute;width:100%;height:100%;perspective:200px;z-index:99;background:#fff;}
-.loadingIn{text-align:center;perspective: 150px;}
+.loadingIn{text-align:center;perspective: 150px;margin-top: 15%;}
 .loadingIn img{width:5%;}
 .loading{animation:loading 3s infinite;}
 
