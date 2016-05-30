@@ -1,39 +1,43 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="css/iconfont.css">
     <link rel="stylesheet" href="css/prettify.css">
-	<link href="icon.ico" type="image/x-icon" rel="shortcut icon" />
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/loading.js"></script>
-    <script type="text/javascript" src="js/angular.js"></script>
-    <title>Bear|nikosian的个人博客|前端技术分享</title>
-</head>
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
 
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
 
-<body  ng-app="">
-    <!--loading-->
-    <!-- <div ng-include="'loading.html'"></div> -->
-    <!--loading end-->
-
-    <!--header-->
-    <div ng-include="'header.html'"></div>
-    <!--header end-->
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
     
-    <!--content-->
-    <div ng-include="'content.html'"></div>
-    <!--content end-->
-
-    <!--footer-->
-    <div ng-include="'backtop.html'"></div>
-    <div ng-include="'footer.html'"></div>
-    <!--footer-->
-</body>
-<script type="text/javascript" data-main="js/control" src="js/require.js"></script>
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+  </head>
+  <body ng-app="starter">
+    <!--
+      The nav bar that will be updated as we navigate between views.
+    -->
+    <ion-nav-bar class="bar-dark">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+    <!--
+      The views will be rendered in the <ion-nav-view> directive below
+      Templates are in the /templates folder (but you could also
+      have templates inline in this html file if you'd like).
+    -->
+    <ion-nav-view></ion-nav-view>
+  </body>
 </html>
