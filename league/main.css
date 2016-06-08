@@ -1,0 +1,21 @@
+body{font-family:"Gotham","Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,sans-serif;font-size: 62.5%;}
+video{overflow:hidden;}
+.none-padding-margin{margin:0;padding:0;}
+.nav-wrap{background:#222;}
+.main-content{position:relative;}
+.mask{position:absolute;top:0;background:rgba(0,0,0,.7);width:100%;height:100%;z-index:1;}
+.main-content  .animation-font-model{position:absolute;top:40%;left:50%;transform:translate(-50%,-50%);z-index:2;}
+.main-content  .animation-font-model h1{color:#fff;font-family:"微软雅黑";font-weight:700;font-size:5em;}
+.main-content  .animation-font-model p{text-align:center;color:#fff;}
+
+/*product*/
+.product-info .item{padding:0;margin:0;overflow:hidden;}
+.product-info .item img{transition:all 2s;}
+.product-info .grid-item img{width:100%;}
+.product-info .grid-text {position:absolute;z-index:1;top:0;padding:30px;height:100%;width:100%;}
+.product-info .grid-text h1{font-size:25px;color:#fff;font-weight:800;}
+.product-info .grid-text p{font-size:24px;font-weight:700;}
+.product-info .position-fontup,.product-info .position-fontdown{position:absolute;z-index:2;left:50%;transform:translate(-50%,0%);transition:all .4s;opacity:0;}
+.product-info .position-fontup{top:25%;}
+.product-info .position-fontdown{bottom:25%;}
+.product-info p.position-fontscale{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);transform-origin:center;font-size:50px;color:#000;transition:all .8s;}
